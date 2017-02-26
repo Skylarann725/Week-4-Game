@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystals Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Luckiest+Guy" rel="stylesheet">    
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Crystals Collector!</h1>
+    </div>
+    <div class="main">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you wil add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+    <br>
+        <div class="numberContainer">
+            <p>Number to Guess:<span id="numberToGuess"></span></p>
+        </div>
+        <div class="resultContainer">
+            <p>Wins:<span id="numberWins"></span></p>
+            <p>Losses:<span id="numberLosses"></span></p>
+        </div>
+   
+    <div class="jewels">
+        <input type="image" id="yellowJewel" src="https://image.flaticon.com/icons/png/128/186/186300.png" />
+        <input type="image" id="redJewel" src="http://icongal.com/gallery/image/179497/garnet_red_gem_jewel.png" />
+        <input type="image" id="blueJewel" src="http://s3.minijuegosgratis.com/media/icons/gem-large.png" />
+        <input type="image" id="greenJewel" src="http://www.myiconfinder.com/uploads/iconsets/256-256-843366e05f45195272641f5d554d2f11.png" />
+        </div>
+        <div class="scoreBox">
+            <p>Your total score is:<span id="score"></span></p>
+        </div>
+       
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>

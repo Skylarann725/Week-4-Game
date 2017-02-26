@@ -1,0 +1,93 @@
+body {
+	background-color: #00CED1;
+}
+
+.container {
+	background-color: white;
+	width: 300px;
+	height: auto;
+	margin-left: 445px;
+	margin-bottom: 15px;
+	border: solid black 2px;
+}
+
+h1 {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.main {
+	background-color: white;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	margin-left: 345px;
+	border: solid black 2px;
+}
+
+p {
+	color: black;
+	font-size: 17px;
+}
+
+.numberContainer {
+	background-color: white;
+	color: black;
+	width: 200px;
+	height: 100px;
+	margin-left: 440px;
+	border: solid black 2px;
+	text-align: center;
+}
+
+.resultContainer {
+	background-color: white;
+	color: black;
+	font-size: 15px;
+	width: 100px;
+	height: 100px;
+	margin-left: 655px;
+	margin-top: -104px;
+	border: solid black 2px;
+	text-align: center;
+
+}
+
+.jewels {
+	margin-left: 435px;
+}
+
+#yellowJewel {
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+}
+
+#redJewel {
+	width: 80px;
+	height: 80px;
+}
+
+#blueJewel {
+	width: 80px;
+	height: 80px;
+}
+
+#greenJewel {
+	width: 80px;
+	height: 80px;
+}
+
+.scoreBox {
+	background-color: white;
+	width: 200px;
+	height: auto;
+	color: black;
+	margin-left: 500px;
+	margin-top: 10px;
+	border: solid black 2px;
+	text-align: center;
+}
+
