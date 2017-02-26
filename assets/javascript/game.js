@@ -11,7 +11,7 @@
         $('#numberWins').text(wins);
         $('#numberLosses').text(losses);
 
-        //for loop to create jewels for every numberOption.
+        //for loop to create random number for every jewel button
         function fourRandomNumbers() {
             for (var i = 0; i < 4; i++) {
                 var numberOptions = Math.floor(Math.random() * 12 + 1);
@@ -51,7 +51,7 @@
             setTimeout(function(){ reset(); }, 100);
         }
 
-        //sets up click for jewels
+        //sets up click for jewels and adds new score
         $('#yellowJewel').on('click', function() {
             counter = counter + targetNumbers[0];
             console.log("New total= " + counter);
@@ -65,11 +65,12 @@
             }
         })
 
+        //sets up click for jewels and adds new score
         $('#redJewel').on('click', function() {
             counter = counter + targetNumbers[1];
             console.log("New total= " + counter);
             $('#score').text(counter);
-
+            //sets win/lose conditions
             if (counter == Random) {
                 winner();
             } else if (counter > Random) {
@@ -77,6 +78,7 @@
             }
         })
 
+        //sets up click for jewels and adds new score
         $('#blueJewel').on('click', function() {
             counter = counter + targetNumbers[2];
             console.log("New total= " + counter);
@@ -90,12 +92,13 @@
             }
         })
 
+        //sets up click for jewels and adds new score
         $('#greenJewel').on('click', function() {
             counter = counter + targetNumbers[3];
             console.log("New total= " + counter);
             $('#score').text(counter);
 
-
+            //sets win/lose confditions
             if (counter == Random) {
                 winner();
             } else if (counter > Random) {
